@@ -539,7 +539,6 @@ p { margin: 0; }
 
     .hero-grid { grid-template-columns: 1fr; }
     .hero-figure { order: -1; }
-    .hero-photo { transform: none; box-shadow: 8px 10px 0 var(--slate-soft); }
     .hero-title { max-width: none; }
 
     .about-grid { grid-template-columns: 1fr; }

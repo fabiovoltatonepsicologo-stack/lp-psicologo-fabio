@@ -335,21 +335,6 @@ p { margin: 0; }
 }
 .about-photo img { width: 100%; height: 100%; object-fit: cover; }
 
-.about-facts {
-    list-style: none;
-    padding: 0;
-    margin: 32px 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 14px;
-}
-.about-facts li {
-    font-size: 0.82rem;
-    color: var(--paper);
-    border: 1px solid rgba(243, 238, 226, 0.3);
-    padding: 7px 14px;
-}
-
 /* ---------- steps ---------- */
 .steps { padding: 96px 0; }
 .steps .section-title { max-width: 20ch; }

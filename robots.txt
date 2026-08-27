@@ -1,4 +1,34 @@
+# robots.txt para Psicólogo Fábio Voltatone (https://www.fabiovoltatone.com.br)
+
 User-agent: *
 Allow: /
 
+# Mecanismos de Busca Generativa e IAs (AIO / GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemaps e Arquivos de Conhecimento para LLMs
 Sitemap: https://www.fabiovoltatone.com.br/sitemap.xml
+LLM-Data: https://www.fabiovoltatone.com.br/llms.txt
+LLM-Data-Full: https://www.fabiovoltatone.com.br/llms-full.txt

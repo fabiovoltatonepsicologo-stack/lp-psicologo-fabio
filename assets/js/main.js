@@ -22,6 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             observer.observe(el);
         });
+
+        // Fail-safe para WebViews e visualizadores de arquivo de celular (WhatsApp QuickLook)
+        setTimeout(() => {
+            document.querySelectorAll('[class*="reveal-"]:not(.is-visible)').forEach((el) => {
+                el.classList.add("is-visible");
+            });
+        }, 600);
     } else {
         revealEls.forEach((el) => el.classList.add("is-visible"));
     }
